@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.clock{
+    position: absolute;
+    color: lime;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 7px;
+}
+
+@media (max-width: 1000px){
+    .clock{
+        position: absolute;
+        color: lime;
+        font-size: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 7px;
+    }
+      
+}
+
+@media (max-width: 500px){
+    .clock{
+        position: absolute;
+        color: lime;
+        font-size: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 7px;
+    }
+      
+}
